@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSM Travel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "xSOBS_fPTwRXnY3f_",
+      });
+   })();
+</script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="image/logo tsmmm.png" alt="TSM Logo">
+    </div>
+    <button id="menuToggle" class="menu-toggle">☰</button>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#destination">Destination</a></li>
+            <li><a href="#tour">Tour</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Lets Enjoy Your Trip With TSM</h1>
+        <p>Ikuti perjalanan yang tak terlupakan dengan Paket Tur Global Luar Biasa kami, yang menawarkan perpaduan sempurna antara kemewahan, petualangan, dan pencelupan budaya di seluruh destinasi paling ikonik di dunia.</p>
+        <div class="buttons">
+            <a href="#" class="explore">Explore more</a>
+            <a href="#" class="how-it-works">How it works</a>
+        </div>
+    </div>
+    <img src="image/destinasii.png" alt="Hero Image">
+</section>
+
+<section id="about" class="about-us">
+    <div class="about-container">
+        <div class="about-image">
+            <img src="image/about.png" alt="About Image">
+        </div>
+        <div class="about-content">
+            <h3>About us</h3>
+            <h2>Welcome to the <span class="highlight">TSM TOUR</span></h2>
+            <p>
+                TSM tour and travel adalah perusahaan yang bergerak di bidang jasa perjalanan dengan tenaga profesional. Kami menyediakan berbagai informasi seputar tempat wisata menarik di seluruh Indonesia, tips – tips perjalanan wisata dan sebagainya.
+            </p>
+            <p>
+                TSM tour and travel didukung oleh tenaga yang profesional, menjadikan perjalanan anda lebih menyenangkan dan anda merasa lebih nyaman. Kelengkapan informasi menjadi jaminan pelayanan kami di seluruh bidang jasa pariwisata.
+            </p>
+            
+        </div>
+    </div>
+</section>
+
+<section id="destination" class="destination-section">
+    <h2 class="section-title">Choose Your Next Destination</h2>
+    <h3 class="section-subtitle">Explore Top Destination</h3>
+    <div class="carousel-container">
+        <div class="destination-cards">
+            <!-- Card Prambanan -->
+            <div class="destination-card">
+                <img src="image/yogyaa.png" alt="Prambanan" class="destination-image">
+                <h4 class="destination-name">Prambanan</h4>
+                <p class="destination-description">Daerah Istimewa Yogyakarta, disingkat DI Yogyakarta atau DIY adalah daerah istimewa (provinsi yang bersifat istimewa di Indonesia).</p>
+                <div class="destination-footer">
+                    <span class="destination-location">Yogyakarta</span>
+                    <span class="destination-price">IDR 1,650K</span>
+                </div>
+                <button class="see-more">See more</button>
+            </div>
+            <!-- Card Pura Ulun Danu -->
+            <div class="destination-card">
+                <img src="image/balii.png" alt="Pura Ulun Danu" class="destination-image">
+                <h4 class="destination-name">Pura Ulun Danu</h4>
+                <p class="destination-description">Bali adalah sebuah provinsi di Indonesia yang terletak pada bagian barat Kepulauan Nusa Tenggara dan beribu kota di Kota Denpasar.</p>
+                <div class="destination-footer">
+                    <span class="destination-location">Bali Island</span>
+                    <span class="destination-price">IDR 2,550K</span>
+                </div>
+                <button class="see-more">See more</button>
+            </div>
+            <!-- Card Pantai Semeti -->
+            <div class="destination-card">
+                <img src="image/llombokk.png" alt="Pantai Semeti" class="destination-image">
+                <h4 class="destination-name">Pantai Semeti</h4>
+                <p class="destination-description">Sebuah pulau di kepulauan Sunda Kecil atau Nusa Tenggara yang terpisahkan oleh Selat Lombok dari Bali di sebelah barat dan Selat Alas.</p>
+                <div class="destination-footer">
+                    <span class="destination-location">Lombok</span>
+                    <span class="destination-price">IDR 2,850K</span>
+                </div>
+                <button class="see-more">See more</button>
+            </div>
+            <!-- Card Raja Ampat -->
+            <div class="destination-card">
+                <img src="image/rajaampat.jpg" alt="Raja Ampat" class="destination-image">
+                <h4 class="destination-name">Raja Ampat</h4>
+                <p class="destination-description">Surga tersembunyi di Papua, dengan terumbu karang yang indah dan biodiversitas laut yang menakjubkan. dan bagikan momen terbaik anda</p>
+                <div class="destination-footer">
+                    <span class="destination-location">Papua</span>
+                    <span class="destination-price">IDR 4,200K</span>
+                </div>
+                <button class="see-more">See more</button>
+            </div>
+            <!-- Tambahan Card Baru -->
+            <div class="destination-card">
+                <img src="image/labuanbajo.jpg" alt="Labuan Bajo" class="destination-image">
+                <h4 class="destination-name">Labuan Bajo</h4>
+                <p class="destination-description">Destinasi wisata di Nusa Tenggara Timur dengan pemandangan Komodo yang terkenal dan perairan yang memukau.</p>
+                <div class="destination-footer">
+                    <span class="destination-location">Nusa Tenggara Timur</span>
+                    <span class="destination-price">IDR 3,800K</span>
+                </div>
+                <button class="see-more">See more</button>
+            </div>
+        </div>
+    </div>
+    <button class="see-more-main">See more</button>
+</section>
+
+<section id="tour" class="tour-type-section">
+    <h2 class="section-title">Package</h2>
+    <h3 class="section-subtitle">Pick A Tour Type</h3>
+    <div class="tour-type-cards">
+        <!-- Card Adventure -->
+        <div class="tour-type-card">
+            <img src="image/adventure.png" alt="Adventure" class="tour-image">
+            <h4 class="tour-name">Adventure</h4>
+            <p class="tour-description">Paket Tour Adventure adalah jenis paket wisata yang dirancang khusus bagi para pencari sensasi dan petualangan.</p>
+        </div>
+        <!-- Card Romance -->
+        <div class="tour-type-card">
+            <img src="image/romance.png" alt="Romance" class="tour-image">
+            <h4 class="tour-name">Romance</h4>
+            <p class="tour-description">Paket Wisata Romantis adalah paket liburan yang dirancang khusus untuk pasangan yang ingin menghabiskan waktu berkualitas bersama.</p>
+        </div>
+        <!-- Card Seasonal -->
+        <div class="tour-type-card">
+            <img src="image/sensional.png" alt="Seasonal" class="tour-image">
+            <h4 class="tour-name">Seasonal</h4>
+            <p class="tour-description">Paket wisata ini dirancang khusus untuk menyesuaikan dengan musim tertentu untuk menikmati keindahan alam.</p>
+        </div>
+        <!-- Card Family -->
+        <div class="tour-type-card">
+            <img src="image/family.jpg" alt="Family" class="tour-image">
+            <h4 class="tour-name">Family</h4>
+            <p class="tour-description">Paket Wisata Keluarga dirancang untuk memberikan pengalaman tak terlupakan bagi keluarga Anda dengan aktivitas yang menyenangkan.</p>
+        </div>
+    </div>
+    <button class="see-more-main">See more</button>
+</section>
+
+<section id="contact" class="subscribe-section">
+    <div class="subscribe-container">
+        <p class="subscribe-text">
+            Subscribe to get information, latest news and other interesting offers about TSM
+        </p>
+        <form id="subscribe-form" class="subscribe-form">
+            <input type="email" id="email" class="subscribe-input" placeholder="Enter Your Email Address" required>
+            <button type="button" id="sendButton" class="subscribe-button">Send</button>
+        </form>        
+    </div>
+    <div id="successModal" class="success-modal">
+        <div class="success-modal-content">
+            <i class="fa fa-check-circle success-icon"></i>
+            <p class="success-message">Email has been successfully sent!</p>
+        </div>
+    </div>    
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Logo dan Deskripsi -->
+        <div class="footer-section">
+            <img src="image/logo tsmmm.png" alt="TSM Logo" class="footer-logo">
+            <p class="footer-description">
+                TSM tour and travel adalah perusahaan yang bergerak dibidang jasa perjalanan dengan tenaga professional.
+            </p>
+            <div class="footer-social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <!-- About Section -->
+        <div class="footer-section">
+            <h4 class="footer-heading">About</h4>
+            <ul class="footer-links">
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Package</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+        <!-- Contact Section -->
+        <div class="footer-section">
+            <h4 class="footer-heading">Contact</h4>
+            <ul class="footer-contact">
+                <li>+6285215894574</li>
+                <li>+6281286456201</li>
+                <li>twinsuksesmandiri@gmail.com</li>
+            </ul>
+        </div>
+        <!-- Head Office Section -->
+        <div class="footer-section">
+            <h4 class="footer-heading">Head Office</h4>
+            <p class="footer-address">
+                Jl. Pelabuhan II KM 13<br>
+                Kp. Cibodas Rt 03/03 Kartaraharja<br>
+                Cikembar-Sukabumi
+            </p>
+        </div>
+    </div>
+</footer>
+
+</html>
